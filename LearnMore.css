@@ -15,7 +15,6 @@
         width: 1325px;
         height: 100px;
         position: absolute;
-        background-color: #d6d6d613;
         border-radius:10px;
         z-index: 3;
         left: 25px;
@@ -43,9 +42,9 @@
         top: 20%;
         height: 60px;
         width: 500px;
-        background-color: #d6d6d6a0;
+        background-color: #4ea0e422;
         border: 1px solid black;
-        border-color: #00000041;
+        border-color: #4ea0e422;
         border-radius: 30px;
         padding-left: 50px;
         font-size: 150%;
@@ -87,7 +86,7 @@
         position: absolute;
         width: 150px;
         height: 45px;
-        top: 110%;
+        top: 12vh;
         left: 800px;
         
     }
@@ -107,7 +106,7 @@
         position: absolute;
         width: 150px;
         height: 45px;
-        top: 110%;
+        top: 12vh;
         left: 1100px; 
     }
     .about b{
@@ -143,17 +142,16 @@
         padding-left: 40px;
         padding-right: 10px;
         padding-bottom: 30px;
-        border: 2px solid black;
-        border-color: #ffffff;
+        background-color: #d6d6d6a0;
         border-radius: 30px;
     }
 
     .randombox{
-        width: 1320px;
+        width: 1000px;
         height:25vh;
-        background-color: #d6d6d6a0;
+        background-color: #4ea0e422;
         margin-top: 23vh;
-        margin-left: 2%;
+        margin-left: 25%;
         border-radius: 40px;
     }
 
@@ -169,8 +167,8 @@
         top: 49vh;
     }
     .taskbar2 img{
-        width: 60px;
-        margin-top: 20px;
+        width: 6vh;
+        margin-top: 2vh;
         padding-left: 2%;
     }
     .taskbar2-txt{
@@ -347,15 +345,18 @@
 
     #top2{
         height: 25vh;
-        width: 1373px;
+        width: 1333px;
         text-align: center;
         padding-top: 30px;
+        background-color: #4ea0e422;
+        border-radius: 50px;
+        margin-left: 20px;
     }
     #top2 h3{
-        font-size: 100px;
+        font-size: 10vh;
     }
     #top2 h4{
-        font-size: 70px;
+        font-size: 7vh;
     }
 
 
@@ -365,7 +366,7 @@
         height: 500vh;
         width: 1373px;
         text-align: center;
-        padding-top: 10px;
+        padding-top: 3vh;
     }
     .box{
         width: 1350px;
