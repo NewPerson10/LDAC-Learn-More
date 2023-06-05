@@ -114,7 +114,7 @@
         height: 25vh;
         right: -500px;
         top: 30vh;
-        background: #786e6ee7;
+        background: #ffffff;
         z-index: 5;
         transition: 0.5s;
         text-align: left;
@@ -167,7 +167,7 @@
         height: 25vh;
         right: -500px;
         top: 30vh;
-        background: #ffffffe7;
+        background: #ffffff;
         z-index: 5;
         transition: 0.5s;
         text-align: center;
