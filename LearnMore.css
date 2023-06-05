@@ -11,11 +11,12 @@
         background-position: center;
         height: 70vh;
         width: 1355px;
-        border-radius: 20px;
+        border-radius: 30px;
         position: absolute;
         margin-left: 10px;
         margin-top: 10px;
         margin-right: 10px;
+        opacity: 0.8;
     }
     .taskbar{
         width: 1305px;
@@ -93,7 +94,7 @@
         position: absolute;
         width: 150px;
         height: 45px;
-        top: 12vh;
+        top: 20vh;
         left: 800px;
         
     }
@@ -113,7 +114,7 @@
         position: absolute;
         width: 150px;
         height: 45px;
-        top: 12vh;
+        top: 20vh;
         left: 1100px; 
     }
     .about b{
@@ -154,7 +155,7 @@
     }
 
     .randombox{
-        width: 500px;
+        width: 600px;
         height:10vh;
         background-color: #4ea0e422;
         margin-top: 80vh;
@@ -185,6 +186,41 @@
         font-size: 50px;
         color: #4ea0e4a0;
     }
+
+
+    .learnbox{
+        width: 1200px;
+        height: 20vh;
+        border: 2px solid rgba(0, 0, 0, 0.461);
+        margin-top: 76vh;
+        position: absolute;
+        margin-left: 80px;
+        z-index: -3;
+        border-radius: 60px;
+    }
+
+    .learnbox2{
+        width: 400px;
+        height: 20vh;
+        border: 2px solid rgba(0, 0, 0, 0.461);
+        margin-top: 230vh;
+        position: absolute;
+        margin-left: 80px;
+        z-index: -3;
+        border-radius: 60px;
+    }
+
+    .learnbox3{
+        width: 200px;
+        height: 10vh;
+        border: 2px solid rgba(0, 0, 0, 0.461);
+        margin-top: 255vh;
+        position: absolute;
+        margin-left: 1100px;
+        z-index: -3;
+        border-radius: 60px;
+    }
+
 
 
 
@@ -234,7 +270,8 @@
         border-radius: 30px;
         padding-top: 5px;
         display: inline-block;
-        margin-right: 650px
+        margin-right: 650px;
+        opacity: 0.8;
     }
     .scroll-box{
         width: 600px;
