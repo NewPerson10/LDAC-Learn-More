@@ -129,6 +129,55 @@
         padding-top: 8px;
     }
 
+    #menubtn{
+        width: 120px;
+        height: 120px;
+        background: #4ea1e438;
+        text-align: center;
+        position: fixed;
+        right: 60px;
+        top: 32vh;
+        border-radius: 3px;
+        z-index: 6;
+        cursor: pointer;
+    }
+    #menubtn img{
+        width: 70px;
+        margin-top: 30px;
+    }
+    
+    #SideNav{
+        width: 250px;
+        height: 340vh;
+        position: fixed;
+        right: -250px;
+        top: 0;
+        background: #357acec1;
+        z-index: 5;
+        transition: 0.5s;
+        text-align: left;
+        border-radius: 10px;
+    }
+    nav ul{
+        padding-top: 350px;
+    }
+    
+    nav ul li{
+        
+        list-style: none;
+        margin: 150px 40px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 200%;
+        
+    }
+
+
+
+
 
     .top-txt{
         display: inline-block;
