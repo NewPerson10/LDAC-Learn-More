@@ -89,45 +89,109 @@
         padding-left: 85px;
         padding-top: 7px;
     }
-    .contact{
+    #contact{
         position: absolute;
         width: 150px;
         height: 45px;
         top: 20vh;
         left: 800px;
-        
+        z-index: 9;
     }
-    .contact b{
+    #contact b{
         position: absolute;
         top: 40%;
         color: #000000;
         font-size: 230%;
     }
-    .contact img{
+    #contact img{
         width: 50px;
         height: 50px;
         padding-left: 150px;
         padding-top: 10px;
     }
-    .about{
+    #contactnav{
+        width: 500px;
+        height: 25vh;
+        right: -500px;
+        top: 30vh;
+        background: #ffffffe7;
+        z-index: 5;
+        transition: 0.5s;
+        text-align: left;
+        border-radius: 50px;
+        position: fixed;
+
+    }
+    nav ul{
+        padding-top: 350px;
+    }
+    
+    nav ul li{
+        
+        list-style: none;
+        margin: 150px 40px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 200%;
+        
+    }
+
+
+
+
+
+    #about{
         position: absolute;
         width: 150px;
         height: 45px;
         top: 20vh;
         left: 1100px; 
     }
-    .about b{
+    #about b{
         position: absolute;
         top: 40%;
         color: #000000;
         font-size: 230%;
     }
-    .about img{ 
+    #about img{ 
         width: 50px;
         height: 50px;
         padding-left: 120px;
         padding-top: 8px;
     }
+    #aboutnav{
+        width: 500px;
+        height: 25vh;
+        right: -500px;
+        top: 30vh;
+        background: #ffffffe7;
+        z-index: 5;
+        transition: 0.5s;
+        text-align: center;
+        border-radius: 50px;
+        position: fixed;
+
+    }
+    #aboutnav nav ul{
+        padding-top: 10px;
+    }
+    
+    #aboutnav nav ul li{
+        
+        text-decoration: none;
+        color: #000;
+        font-size: 150%;
+        
+    }
+
+
+
+
+
+
 
     #menubtn{
         width: 120px;
