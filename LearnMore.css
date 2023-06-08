@@ -81,6 +81,50 @@
         width: 30px;
         height: 30px;
     }
+    #suggestions {
+        list-style-type: none;
+        background-color: #ffffff;
+        width: 500px;
+        height: 70vh;
+        margin: 0;
+        padding-left: 30px;
+        padding-top: 15px;
+        margin-top: 12vh;
+        display: none;
+        border-radius: 20px;
+        text-decoration: none ;
+        z-index: 99999999999;
+        position: absolute;
+    }
+    #suggestions li {
+        background-color: #0044bb68;
+        height: 60px;
+        width: 450px;
+        padding: 18px;
+        cursor: pointer;
+        border-radius: 20px;
+        margin-bottom:25px;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+        z-index: 99;
+    }
+    #suggestions li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 200%;
+        width: 200%;
+        height: 200%;
+    }
+    
+    #suggestions li:hover {
+        background-color: #0045bb;
+    }
+    .search-bar-active #suggestions {
+        display: block; /* Show the suggestions box when search bar is active */
+    }
+
+
     .sign-in{
         position: absolute;
         width: 100px;
@@ -121,32 +165,32 @@
     }
     #contactnav{
         width: 500px;
-        height: 25vh;
-        right: -500px;
+        height: 70vh;
+        right: 1500px;
         top: 30vh;
-        background: #ffffff;
+        background: #000000a1;
         z-index: 5;
         transition: 0.5s;
         text-align: left;
         border-radius: 50px;
-        position: fixed;
-        transition: 1s ease-in-out;
+        position: absolute;
+        transition: 0.5s ease-in-out;
 
     }
-    nav ul{
-        padding-top: 350px;
+    #contactnav nav ul{
+        padding-top: 10px;
     }
     
-    nav ul li{
+    #contactnav nav ul li{
         
         list-style: none;
         margin: 150px 40px;
         
     }
-    nav ul li a{
+    #contactnav nav ul li a{
         text-decoration: none;
-        color: #fff;
-        font-size: 200%;
+        color: #ffffff;
+        font-size: 150%;
 
     }
 
@@ -175,16 +219,16 @@
     }
     #aboutnav{
         width: 500px;
-        height: 25vh;
-        right: -500px;
+        height: 70vh;
+        right: 1500px;
         top: 30vh;
-        background: #ffffff;
+        background: #000000a1;
         z-index: 5;
         transition: 0.5s;
         text-align: center;
         border-radius: 50px;
-        position: fixed;
-        transition: 1s ease-in-out;
+        position: absolute;
+        transition: 0.5s ease-in-out;
     }
     #aboutnav nav ul{
         padding-top: 10px;
@@ -193,7 +237,7 @@
     #aboutnav nav ul li{
         
         text-decoration: none;
-        color: #000;
+        color: #ffffff;
         font-size: 150%;
         
     }
@@ -267,7 +311,7 @@
     .top-txt h4{
         width: 700px;
         font-size: 7vh;
-        color: #0000008e;
+        color: #000000bd;
         margin-top: 10vh;
         padding-top: 12vh;
         padding-left: 40px;
@@ -380,7 +424,7 @@
     .horizontal-scroll{
         width:1250px;
         height: 460px;
-        overflow-x: auto;
+        overflow-x:auto;
         white-space: nowrap;
         position: absolute;
         margin-top: -40vh;
@@ -397,12 +441,12 @@
         padding-top: 5px;
         display: inline-block;
         margin-right: 650px;
-        opacity: 0.8;
+        opacity: 0.8; 
     }
     .scroll-box{
         width: 600px;
         height: 45vh;
-        background-color: #ffffffa8;
+        background-color: #0000001a;
         margin-top:5px;
         left: 650px;
         position: absolute;
@@ -417,7 +461,7 @@
     .scroll-box1{
         width: 590px;
         height: 45vh;
-        background-color: #ffffffa8;
+        background-color: #0000001a;
         margin-top: 5px;
         margin-left: -148%;
         position: absolute;
@@ -432,7 +476,7 @@
     .scroll-box2{
         width: 600px;
         height: 45vh;
-        background-color: #ffffffa8;
+        background-color: #0000001a;
         margin-top: 5px;
         margin-left: -50%;
         position: absolute;
@@ -458,7 +502,7 @@
     .top11-txt p{
         width: 600px;
         height: 8vh;
-        margin-top: 25vh;
+        margin-top: 20vh;
         margin-left: 10px;
         font-size: 8vh;
         position: absolute;
@@ -470,9 +514,9 @@
     .top11-txt2 p{
         width: 630px;
         height: 10vh;
-        padding-top: 42vh;
+        padding-top: 35vh;
         padding-left: 4vh;
-        font-size: 6vh;
+        font-size: 5vh;
         position: absolute;
         color: #00000087;
     }
@@ -646,7 +690,7 @@
         text-align: left;
         border-radius: 50px;
         position:absolute;
-        transition: 1s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     #featureclose-btn{
         margin-top: 7vh;
@@ -774,7 +818,7 @@
         text-align: left;
         border-radius: 50px;
         position:absolute;
-        transition: 1s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     #featureclose-btn1{
         margin-top: 7vh;
@@ -905,7 +949,7 @@
         text-align: left;
         border-radius: 50px;
         position:absolute;
-        transition: 1s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     #featureclose-btn2{
         margin-top: 7vh;
@@ -1038,7 +1082,7 @@
         text-align: left;
         border-radius: 50px;
         position:absolute;
-        transition: 1s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     #featureclose-btn3{
         margin-top: 7vh;
@@ -1170,7 +1214,7 @@
         text-align: left;
         border-radius: 50px;
         position:absolute;
-        transition: 1s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
     #featureclose-btn4{
         margin-top: 7vh;
