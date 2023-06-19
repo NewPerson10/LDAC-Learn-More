@@ -1210,8 +1210,9 @@
         cursor: pointer;
         width: 100px;
         height: 100px;
+        background-color: #3591ce00;
     }
-   .socials img a{
+   .socials a{
    background-color: #3591ce00;
 }
 }
