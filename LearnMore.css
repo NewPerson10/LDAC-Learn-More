@@ -347,12 +347,12 @@
         width: 900px;
         height: 8vh;
         margin-top: -40vh;
-        margin-left: 10px;
         font-size: 9vh;
         position: absolute;
         color: #fff;
         border-radius: 30px;
         text-align: center;
+        padding-left: 4vh;
     }
 
     .top11-txt2 p{
