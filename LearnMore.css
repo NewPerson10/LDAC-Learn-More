@@ -150,8 +150,8 @@
     
     #contact{
         position: absolute;
-        width: 150px;
-        height: 45px;
+        width: 200px;
+        height: 70px;
         top: 110%;
         left: 780px;
         cursor: pointer;
@@ -191,8 +191,8 @@
     
     #about{
         position: absolute;
-        width: 150px;
-        height: 45px;
+        width: 200px;
+        height: 70px;
         top: 110%;
         left: 1130px; 
         cursor: pointer;
