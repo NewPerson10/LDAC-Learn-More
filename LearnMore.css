@@ -248,7 +248,7 @@
         text-align: center;
         position: fixed;
         right: 60px;
-        top: 35vh;
+        top: 45vh;
         border-radius: 3px;
         z-index: 4;
         cursor: pointer;
@@ -261,7 +261,7 @@
     
     #SideNav{
         width: 450px;
-        height: 340vh;
+        height: 350vh;
         position: fixed;
         right: -450px;
         top: 0;
@@ -272,13 +272,13 @@
         border-radius: 10px;
     }
     #SideNav nav ul{
-        padding-top: 350px;
+        padding-top: 460px;
     }
     
     #SideNav nav ul li{
         
         list-style: none;
-        margin: 200px 40px;
+        margin: 220px 100px;
         
     }
     #SideNav nav ul li a{
