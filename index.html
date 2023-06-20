@@ -719,15 +719,12 @@
     </section>
     <section id="buttons">
         <div class="button-container">
-        <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1 and see more</button>
-        <button class="navigation-button" onclick="window.location.href = 'page2.html';">Go to Page 2</button>
-        <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
-        <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1</button>
-        <button class="navigation-button" onclick="window.location.href = 'page2.html';">Linstead Ackee and Jerk Festival</button>
-        <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
-        <button class="navigation-button" onclick="window.location.href = 'page1.html';">Go to Page 1</button>
-        <button class="navigation-button" onclick="window.location.href = 'page2.html';">Go to Page 2</button>
-        <button class="navigation-button" onclick="window.location.href = 'page3.html';">Go to Page 3</button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/LDAC-Register/';">Sign Up?</button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/Awards-Ceremony/';">Awards Ceremony</button>
+                <button id="contactscrollToTopButton" class="navigation-button" onclick="scrollToTop();"> Contact </button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/Jerk-Festival/';">Linstead Ackee and Jerk Festival</button>
+                <button id="aboutscrollToTopButton" class="navigation-button" onclick="scrollToTop1();"> About </button>
+                <button class="navigation-button" onclick="window.location.href = 'https://newperson10.github.io/LDAC-Concert/';">Our Powerful CDC's in Concert</button>
         </div>
 
                 <div class="socials"> 
@@ -735,6 +732,62 @@
                     <a href="https://www.facebook.com/linsteaddac"> <img src="images/facebook-app-symbol.png"> </a>
                     <a href="https://instagram.com/linsteaddac?igshid=MzRlODBiNWFlZA=="> <img src="images/instagram.png"> </a>
                     <img id="shareButton" src="images/share.png">
+
+
+<script>
+// Function to scroll to the top of the page
+var contact1=document.getElementById("contact")
+var contactnav1=document.getElementById("contactnav")
+var contactimg1=document.getElementById("contactimg")
+var about1=document.getElementById("contact")
+var aboutnav1=document.getElementById("contactnav")
+var aboutimg1=document.getElementById("contactimg")
+    aboutnav1.style.right ="-500px";
+    contactnav1.style.right ="-500px";
+function scrollToTop() {
+if(contactnav1.style.right =="-500px" ){
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+    setTimeout(function() {
+    contactnav1.style.right = "185px";
+    contact1.src="images/3.PNG";
+    // Slide out the aboutnav if it is currently open
+    aboutnav.style.right = "-500px";
+    aboutimg.src = "images/3.PNG";
+    }, 700); // Delay of 1 second (700 milliseconds)
+}
+else{
+    setTimeout(function() {
+    contactnav1.style.right = "-500px";
+    contactimg1.src="images/3.PNG";
+    }, 300); // Delay of 1 second (700 milliseconds)
+  }
+}
+
+    function scrollToTop1() {
+if(aboutnav1.style.right =="-500px" ){
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+    setTimeout(function() {
+    aboutnav1.style.right = "185px";
+    about1.src="images/3.PNG";
+    // Slide out the aboutnav if it is currently open
+    contactnav.style.right = "-500px";
+    contactimg.src = "images/3.PNG";
+    }, 700); // Delay of 1 second (700 milliseconds)
+}
+else{
+    setTimeout(function() {
+    aboutnav1.style.right = "-500px";
+    aboutimg1.src="images/3.PNG";
+    }, 300); // Delay of 1 second (700 milliseconds)
+  }
+}
+</script>
                 </div>
 
                             <script>
