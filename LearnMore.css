@@ -352,7 +352,8 @@
         color: #fff;
         border-radius: 30px;
         text-align: center;
-        padding-left: 4vh;
+        float:left;
+        padding:10px
     }
 
     .top11-txt2 p{
@@ -453,6 +454,8 @@
         left: 700px;
         position: absolute;
         border-radius: 50px;
+        font-size:100%;
+        color:#fff;
     }
     .date{
         width:200px;
@@ -461,6 +464,7 @@
         border-radius: 30px;
         margin-left: 50px;
         margin-top: 50px;
+        padding: 10px;
     }
     .txt{
         width:400px;
@@ -469,6 +473,7 @@
         border-radius: 30px;
         margin-left: 50px;
         margin-top: 60px;
+        padding:10px;
     }
     #feature-btn{
         position: absolute;
@@ -510,6 +515,11 @@
         border-radius: 50px;
         position:absolute;
         transition: 0.5s ease-in-out;
+        padding:10px;
+        color:#fff;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
     }
     #featureclose-btn{
         margin-top: 7vh;
