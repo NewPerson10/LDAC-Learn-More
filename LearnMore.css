@@ -507,7 +507,6 @@
     
       #btn-nav{
         width: 850px;
-        height: 75vh;
         right: 1400px;
         top: 2.5vh;
         background: #4ea0e4;
@@ -517,7 +516,7 @@
         border-radius: 50px;
         position:absolute;
         transition: 0.5s ease-in-out;
-        padding:10px;
+        padding:20px;
         color:#fff;
         display: flex;
         flex-wrap: wrap;
