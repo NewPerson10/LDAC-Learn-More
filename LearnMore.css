@@ -347,8 +347,7 @@
         color: #fff;
         border-radius: 30px;
         text-align: center;
-        float:left;
-        padding:10px
+        padding-left:50px;
     }
 
     .top11-txt2 p{
@@ -460,6 +459,10 @@
         margin-left: 50px;
         margin-top: 50px;
         padding: 10px;
+        font-size: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     .txt{
         width:400px;
@@ -469,6 +472,10 @@
         margin-left: 50px;
         margin-top: 60px;
         padding:10px;
+        height: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
     #feature-btn{
         position: absolute;
