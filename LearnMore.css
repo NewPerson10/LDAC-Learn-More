@@ -594,6 +594,8 @@
         left: 700px;
         position: absolute;
         border-radius: 50px;
+        font-size:100%;
+        color:#fff;
     }
     .date1{
         width:200px;
@@ -601,15 +603,23 @@
         background-color: #00000048;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 50px;
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 200%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight:bolder;
     }
     .txt1{
         width:400px;
         height: 35vh;
-        background-color: #00000048;
+        background-color: #3591ce;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 60px;
+        margin-top: 40px;
+        padding:20px;
+        font-size: 200%;
     }
     #feature-btn1{
         position: absolute;
@@ -641,7 +651,7 @@
     
       #btn1-nav{
         width: 850px;
-        height: 75vh;
+        height:75vh;
         right: 1400px;
         top: 2.5vh;
         background: #4ea0e4;
@@ -651,9 +661,12 @@
         border-radius: 50px;
         position:absolute;
         transition: 0.5s ease-in-out;
+        padding:20px;
+        color:#fff;
+        font-size: 200%;
     }
     #featureclose-btn1{
-        margin-top: 7vh;
+        margin-top: 5vh;
         margin-left: 550px;
         width: 200px;
         height: 5vh;
@@ -725,6 +738,8 @@
         left: 700px;
         position: absolute;
         border-radius: 50px;
+        font-size:100%;
+        color:#fff;
     }
     .date2{
         width:200px;
@@ -732,15 +747,23 @@
         background-color: #00000048;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 50px;
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 200%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight:bolder;
     }
     .txt2{
         width:400px;
         height: 35vh;
-        background-color: #00000048;
+        background-color: #3591ce;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 60px;
+        margin-top: 40px;
+        padding:20px;
+        font-size: 200%;
     }
     #feature-btn2{
         position: absolute;
@@ -772,7 +795,7 @@
     
       #btn2-nav{
         width: 850px;
-        height: 75vh;
+        height:75vh;
         right: 1400px;
         top: 2.5vh;
         background: #4ea0e4;
@@ -782,9 +805,12 @@
         border-radius: 50px;
         position:absolute;
         transition: 0.5s ease-in-out;
+        padding:20px;
+        color:#fff;
+        font-size: 200%;
     }
     #featureclose-btn2{
-        margin-top: 7vh;
+        margin-top: 5vh;
         margin-left: 550px;
         width: 200px;
         height: 5vh;
@@ -858,6 +884,8 @@
         left: 700px;
         position: absolute;
         border-radius: 50px;
+        font-size:100%;
+        color:#fff;
     }
     .date3{
         width:200px;
@@ -865,15 +893,23 @@
         background-color: #00000048;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 50px;
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 200%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight:bolder;
     }
     .txt3{
         width:400px;
         height: 35vh;
-        background-color: #00000048;
+        background-color: #3591ce;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 70px;
+        margin-top: 40px;
+        padding:20px;
+        font-size: 200%;
     }
     #feature-btn3{
         position: absolute;
@@ -905,7 +941,7 @@
     
       #btn3-nav{
         width: 850px;
-        height: 75vh;
+        height:75vh;
         right: 1400px;
         top: 2.5vh;
         background: #4ea0e4;
@@ -915,9 +951,12 @@
         border-radius: 50px;
         position:absolute;
         transition: 0.5s ease-in-out;
+        padding:20px;
+        color:#fff;
+        font-size: 200%;
     }
     #featureclose-btn3{
-        margin-top: 7vh;
+        margin-top: 5vh;
         margin-left: 550px;
         width: 200px;
         height: 5vh;
@@ -990,6 +1029,8 @@
         left: 700px;
         position: absolute;
         border-radius: 50px;
+        font-size:100%;
+        color:#fff;
     }
     .date4{
         width:200px;
@@ -997,15 +1038,23 @@
         background-color: #00000048;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 50px;
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 200%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-weight:bolder;
     }
     .txt4{
         width:400px;
         height: 35vh;
-        background-color: #00000048;
+        background-color: #3591ce;
         border-radius: 30px;
         margin-left: 50px;
-        margin-top: 60px;
+        margin-top: 40px;
+        padding:20px;
+        font-size: 200%;
     }
     #feature-btn4{
         position: absolute;
@@ -1037,7 +1086,7 @@
     
       #btn4-nav{
         width: 850px;
-        height: 75vh;
+        height:75vh;
         right: 1400px;
         top: 2.5vh;
         background: #4ea0e4;
@@ -1047,9 +1096,12 @@
         border-radius: 50px;
         position:absolute;
         transition: 0.5s ease-in-out;
+        padding:20px;
+        color:#fff;
+        font-size: 200%;
     }
     #featureclose-btn4{
-        margin-top: 7vh;
+        margin-top: 5vh;
         margin-left: 550px;
         width: 200px;
         height: 5vh;
