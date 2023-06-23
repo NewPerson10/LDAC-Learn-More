@@ -341,22 +341,11 @@
     var btnnav = document.getElementById("btn-nav");
     var featureclosebtn = document.getElementById("featureclose-btn");
     var background = document.getElementById("background");
-                var background1 = document.getElementById("background1");
-            var background2 = document.getElementById("background2");
-            var background3 = document.getElementById("background3");
-            var background4 = document.getElementById("background4");
-
     if (btnnav.style.right === "400px") {
                 btnnav.style.right = "1400px";
-                featurebtn.src = "images/1 (1).PNG";
-                
+                background.classList.remove("darken-background");                
                 } else {
                 btnnav.style.right = "400px";
-                background.classList.add("darken-background");
-                background1.classList.remove("darken-background");
-                background2.classList.remove("darken-background");
-                background3.classList.remove("darken-background");
-                background4.classList.remove("darken-background");
                 }
                 });
 
