@@ -519,6 +519,11 @@
         color:#fff;
         font-size: 200%;
     }
+   
+   #btn-nav p{
+      padding-top: 100px;
+   }
+   
     #featureclose-btn{
         margin-top: 7vh;
         margin-left: 550px;
@@ -541,7 +546,6 @@
         transition: opacity 1s ease;
         background-color: #ffffff;
         border-radius: 10px;
-        padding-top:100px;
     }
     nav ul{
         padding-top: 350px;
