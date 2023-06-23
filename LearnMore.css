@@ -19,7 +19,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1363px;
+    width: 1373px;
     height: 1500vh;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency and color as needed */
     z-index: 5; /* Ensure the darkened background is on top */
