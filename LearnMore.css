@@ -459,7 +459,7 @@
         margin-left: 50px;
         margin-top: 50px;
         padding: 10px;
-        font-size: 100%;
+        font-size: 200%;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -473,9 +473,7 @@
         margin-top: 60px;
         padding:20px;
         height: 100%;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
+        font-size: 300%;
     }
     #feature-btn{
         position: absolute;
@@ -507,6 +505,7 @@
     
       #btn-nav{
         width: 850px;
+        height:75vh;
         right: 1400px;
         top: 2.5vh;
         background: #4ea0e4;
@@ -518,9 +517,7 @@
         transition: 0.5s ease-in-out;
         padding:20px;
         color:#fff;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        font-size: 300%;
     }
     #featureclose-btn{
         margin-top: 7vh;
