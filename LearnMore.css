@@ -674,6 +674,9 @@
         color:#fff;
         font-size: 200%;
     }
+      #btn1-nav p{
+      padding-top: 60px;
+   }
     #featureclose-btn1{
         margin-top: 5vh;
         margin-left: 550px;
@@ -818,6 +821,9 @@
         color:#fff;
         font-size: 200%;
     }
+      #btn2-nav p{
+      padding-top: 60px;
+   }
     #featureclose-btn2{
         margin-top: 5vh;
         margin-left: 550px;
@@ -964,6 +970,9 @@
         color:#fff;
         font-size: 200%;
     }
+      #btn3-nav p{
+      padding-top: 60px;
+   }
     #featureclose-btn3{
         margin-top: 5vh;
         margin-left: 550px;
@@ -1109,6 +1118,9 @@
         color:#fff;
         font-size: 200%;
     }
+      #btn4-nav p{
+      padding-top: 60px;
+   }
     #featureclose-btn4{
         margin-top: 5vh;
         margin-left: 550px;
